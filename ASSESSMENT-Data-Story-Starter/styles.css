@@ -42,7 +42,8 @@ section{
     border-bottom:1px solid var(--color-border);
 }
 .story-grid{
-    display:grid;gap:var(--space-3);
+    display:grid;
+    gap:var(--space-3);
     grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));
 }
 figure{
@@ -54,6 +55,10 @@ img,.story-graphic{
     display:block;
     max-width:100%;
     height:auto;
+}
+#gene-tracker-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 figcaption,.source-note{
     margin-top:.75rem;
