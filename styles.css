@@ -40,7 +40,7 @@
     --color-dark: #000000;
     --color-contrast: #111e69;
     --color-accent: #faf9f5;
-    --color-muted: #6173ad;
+    --color-muted: #4960ac;
     --color-border: #BCB88A;
     --color-altdark: #5f0000;
     --color-altaccent: #f09d9e;
@@ -114,6 +114,10 @@ img,.story-graphic{
     height:auto;
 }
 
+.test-image {
+    max-width: 50vw;
+    height: auto;
+}
 
 #gene-tracker-img {
     margin-top: 1rem;
@@ -153,7 +157,7 @@ thead{
     color: var(--color-accent);
 }
 
-.table-region:focus-visible{
+a:focus-visible, .table-region:focus-visible{
     outline:.2rem solid var(--color-contrast);
     outline-offset:.2rem;
 }
