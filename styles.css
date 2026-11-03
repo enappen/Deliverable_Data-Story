@@ -163,7 +163,7 @@ svg .cls-2, svg .cls-3  {
     font-family: var(--font-body);
 }
 svg .cls-5, svg .cls-7 {
-    fill: val(--color-altaccent);
+    fill: var(--color-altaccent);
 }
 svg .cls-2 {
     font-size: var(--font-size-svg-subtext);
