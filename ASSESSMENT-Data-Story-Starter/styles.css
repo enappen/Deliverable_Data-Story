@@ -4,7 +4,7 @@
 */
 @font-face {
     font-family: 'Lato';
-    src: url('assets/Web-Fonts/Lato-Regular.woff2') format('woff2');
+    src: url('../Web-Fonts/Lato-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('assets/Web-Fonts/Lato-Bold.woff2') format('woff2');
+    src: url('../Web-Fonts/Lato-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('assets/Web-Fonts/Lato-Black.woff2') format('woff2');
+    src: url('..s/Web-Fonts/Lato-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('assets/Web-Fonts/Lato-Light.woff2') format('woff2');
+    src: url('../Web-Fonts/Lato-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -37,7 +37,6 @@
 /* Global Values */
 :root{
     --font-body: "Lato", "Arial", sans-serif;
-    --color-border:#d0d0d0;
     --color-dark: #000000;
     --color-contrast: #111e69;
     --color-accent: #faf9f5;
@@ -45,6 +44,10 @@
     --color-border: #BCB88A;
     --color-altdark: #5f0000;
     --color-altaccent: #f09d9e;
+    --font-size-svg-subtext: 1.15rem;
+    --font-size-svg-headers: 2.9rem;
+    --font-weight-bold: 700;
+    --letter-spacing-svg-subtext: 5%;
     --space-3:1rem;
     --radius-card:.5rem;
     --measure:68ch;
@@ -151,13 +154,39 @@ thead{
 }
 
 .table-region:focus-visible{
-    outline:.2rem solid var(--color-accent);
+    outline:.2rem solid var(--color-contrast);
     outline-offset:.2rem;
 }
 
 /* Custom SVG */
-
-
+svg .cls-2, svg .cls-3  {
+    font-family: var(--font-body);
+}
+svg .cls-5, svg .cls-7 {
+    fill: val(--color-altaccent);
+}
+svg .cls-2 {
+    font-size: var(--font-size-svg-subtext);
+}
 svg .cls-3 {
-    font-size: 2.9rem;
+    font-size: var(--font-size-svg-headers);
+    font-weight: var(--font-weight-bold);
+    fill: var(--color-dark);
+}
+svg .cls-9 {
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-svg-subtext);
+}
+svg .cls-15 {
+    fill: var(--color-muted);
+}
+svg .cls-23 {
+    fill: var(--color-altaccent);
+}
+
+svg .lines {
+    fill: var(--color-altdark);
+}
+svg .cls-8, svg .cls-5, svg .cls-6, svg .cls-7 {
+    stroke: var(--color-altdark);
 }

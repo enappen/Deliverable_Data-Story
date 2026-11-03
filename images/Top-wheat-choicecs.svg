@@ -121,12 +121,12 @@
     <rect id="LL_3" x="284.92" y="147.11" width="230.16" height="2"/>
     <rect id="LL_2" x="256.92" y="196" width="286.16" height="2"/>
     <rect id="LL_1" x="324.92" y="244.9" width="150.16" height="2"/>
-    <text class="cls-9" transform="translate(415.84 91.67)"><tspan class="cls-13" x="0" y="0">K</tspan><tspan x="9.24" y="0">CA</tspan><tspan class="cls-19" x="28.29" y="0">L</tspan></text>
-    <text class="cls-9" transform="translate(350.94 91.67)"><tspan class="cls-14" x="0" y="0">F</tspan><tspan x="7.92" y="0">ibe</tspan><tspan class="cls-12" x="27.06" y="0">r</tspan></text>
-    <text class="cls-9" transform="translate(415.84 139.67)"><tspan class="cls-18" x="0" y="0">P</tspan><tspan class="cls-10" x="8.68" y="0">r</tspan><tspan class="cls-4" x="13.79" y="0">o</tspan><tspan class="cls-22" x="21.74" y="0">t</tspan><tspan x="26.96" y="0">ein</tspan></text>
-    <text class="cls-9" transform="translate(318.6 139.67)"><tspan class="cls-17" x="0" y="0">P</tspan><tspan class="cls-20" x="8.47" y="0">o</tspan><tspan x="16.42" y="0">tassium</tspan></text>
-    <text class="cls-9" transform="translate(415.84 190.93)"><tspan class="cls-16" x="0" y="0">F</tspan><tspan class="cls-1" x="7" y="0">a</tspan><tspan class="cls-11" x="14.06" y="0">t</tspan></text>
-    <text class="cls-9" transform="translate(357.97 190.93)"><tspan class="cls-21" x="0" y="0">I</tspan><tspan class="cls-10" x="4.14" y="0">r</tspan><tspan x="9.25" y="0">on</tspan></text>
+    <text class="cls-9" transform="translate(415.84 91.67)"><tspan class="cls-13" x="0" y="0">KCAL</tspan></text>
+    <text class="cls-9" transform="translate(350.94 91.67)"><tspan class="cls-14" x="0" y="0">Fiber</tspan></text>
+    <text class="cls-9" transform="translate(415.84 139.67)"><tspan class="cls-18" x="0" y="0">Protein</tspan></text>
+    <text class="cls-9" transform="translate(318.6 139.67)"><tspan class="cls-17" x="0" y="0">Potassium</tspan></text>
+    <text class="cls-9" transform="translate(415.84 190.93)"><tspan class="cls-16" x="0" y="0">Fat</tspan></text>
+    <text class="cls-9" transform="translate(357.97 190.93)"><tspan class="cls-21" x="0" y="0">Iron</tspan></text>
     <text class="cls-9" transform="translate(415.84 237.75)"><tspan x="0" y="0">Carbs</tspan></text>
     <text class="cls-9" transform="translate(333.14 237.75)"><tspan x="0" y="0">Calcium</tspan></text>
     <text class="cls-2" transform="translate(483.32 104.55)"><tspan x="0" y="0">375</tspan></text>
